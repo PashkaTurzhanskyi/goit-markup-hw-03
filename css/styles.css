@@ -152,16 +152,13 @@ img {
 .section {
   padding: 94px 0;
 }
-.section-advantages {
-  padding-bottom: 0;
-}
 .advantages {
   display: flex;
-  /* margin-right: -30px; */
-  margin-bottom: 94px;
+}
+.item-advantages {
+  flex-basis: 270px;
 }
 .list > .item-advantages:not(:last-child) {
-  /* flex-basis: calc(100% / 4 - 30px); */
   margin-right: 30px;
 }
 .advantages-title {
@@ -249,10 +246,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-
+.item-adress {
+  margin-bottom: 9px;
+}
 .mail-tel {
-  margin-top: 9px;
-  display: inline-block;
   color: rgba(255, 255, 255, 0.6);
 }
 
