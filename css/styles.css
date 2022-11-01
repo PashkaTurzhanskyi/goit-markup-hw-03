@@ -152,6 +152,9 @@ img {
 .section {
   padding: 94px 0;
 }
+.section-advantages {
+  padding-bottom: 0;
+}
 .advantages {
   display: flex;
 }
